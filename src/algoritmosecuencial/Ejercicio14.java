@@ -81,6 +81,8 @@ public class Ejercicio14 extends javax.swing.JFrame {
             }
         });
         jPanel1.add(cmdBorrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 250, 130, 40));
+
+        txtPagar.setEditable(false);
         jPanel1.add(txtPagar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 150, 160, 40));
 
         txtDia.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -145,8 +147,6 @@ public class Ejercicio14 extends javax.swing.JFrame {
                JOptionPane.showMessageDialog(null, "el numero colocado en la casilla de dia es erroneo, por favor corregir","ERROR",JOptionPane.ERROR_MESSAGE);
            } 
     
-
-        
     }//GEN-LAST:event_cmdCalcularActionPerformed
 
     private void cmdBorrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdBorrarActionPerformed
